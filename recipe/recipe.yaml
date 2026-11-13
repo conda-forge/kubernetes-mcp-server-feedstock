@@ -1,6 +1,6 @@
 context:
   name: kubernetes-mcp-server
-  version: "0.1.1"
+  version: "0.1.3"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/containers/kubernetes-mcp-server/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 37189b9939dabab68d2d5f0cb4eac20525027b2317d1d7f468d9e4144c97410d
+  sha256: 536d097878e8cf27e26cdca1355431b6c7e91a18b18c5dc416e205a435e14346
   target_directory: src
 
 build:
